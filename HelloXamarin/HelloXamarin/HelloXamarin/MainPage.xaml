@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HelloXamarin"
+             x:Class="HelloXamarin.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Tervetuloa Xamarin.Forms!" 
+               TextColor="Blue"
+               BackgroundColor="AntiqueWhite"
+           HorizontalOptions="Center"/>
+           <!--VerticalOptions="CenterAndExpand"-->
+        <Label Text="Versio 0.1" 
+               TextColor="Silver"
+               BackgroundColor="Blue"
+           HorizontalOptions="Center"/>
+        <!--VerticalOptions="CenterAndExpand"-->
+
+        <Label Text="Arvaa Numero -peli" 
+                HorizontalOptions="Center"/>
+
+        <Entry Text="" 
+                HorizontalOptions="Center"
+               WidthRequest="200"/>
+        
+        <Button Text="Arvaa Numero" 
+                HorizontalOptions="Center"/>
+        
+        <Button Text="Klikkaa mua!" Clicked="Button_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
